@@ -1,11 +1,12 @@
 import React from 'react'; //import React package
 import ReactDOM from 'react-dom'; //import ReacrDOM package
+import Frame from './components/frame'; //import our frame component
 import './styles/main.css'; //import our external css style file
 
 // using the render method, we will mount this node into our DOM (html file) on the element with 
 // id of 'app'
 
 ReactDOM.render(
-  <div> HelloWorld </div>,
+  <Frame />, // mount our frame component
   document.getElementById('app')
 );
