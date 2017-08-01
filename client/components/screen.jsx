@@ -7,9 +7,9 @@ import ScreenRow from './screenRow';
 
 const Screen = (props) => {
 	return (
-	    <div className="screen">
-		<ScreenRow value={props.question}/>
-		<ScreenRow value={props.answer}/>
+	    <div className="screen row">
+		<ScreenRow className='input-screen' value={props.question}/>
+		<ScreenRow className='output-screen' value={props.answer}/>
 	    </div>
 	);
 }
